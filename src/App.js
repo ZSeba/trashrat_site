@@ -4,12 +4,11 @@ import Sidebar from './components/Sidebar';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        TRASH RAT
-        <Sidebar />
-      </header>
+      <Sidebar />
       <div className="App-body">
-        muh body is redy
+        <p className="trash-title">
+          TRASH RAT
+        </p>
       </div>
     </div>
   );

@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "WhoDares";
+  src: local("WhoDares"),
+   url("./fonts/WhoDares.otf") format("truetype");
+  font-weight: normal;
+}
