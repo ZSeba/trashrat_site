@@ -8,7 +8,9 @@ const App = () => {
         TRASH RAT
         <Sidebar />
       </header>
-      muh body is redy
+      <div className="App-body">
+        muh body is redy
+      </div>
     </div>
   );
 }
