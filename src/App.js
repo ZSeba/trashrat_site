@@ -6,8 +6,9 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         TRASH RAT
+        <Sidebar />
       </header>
-      <Sidebar />
+      muh body is redy
     </div>
   );
 }
