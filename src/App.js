@@ -1,12 +1,13 @@
 import './App.css';
+import Sidebar from './components/Sidebar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         TRASH RAT
       </header>
-
+      <Sidebar />
     </div>
   );
 }
